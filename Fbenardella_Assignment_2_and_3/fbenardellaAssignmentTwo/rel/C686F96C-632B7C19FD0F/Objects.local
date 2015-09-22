@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="F582843B-6AC0-88EF-8127-2540104EBEAF" name="customer" seqName="seg_0"/>
+   <object objectType="Table" objectID="C6572E3D-25E2-A4DD-4FAD-E90AEF2756E9" name="employee" seqName="seg_0"/>
+   <object objectType="Table" objectID="61FAFBBA-CC29-2A7D-484A-133DFA654EAB" name="ordertbl" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E7CBB41A-CA49-D95E-427C-1646E31B90B6" name="ordertbl_employee_FK" seqName="seg_0" containerID="61FAFBBA-CC29-2A7D-484A-133DFA654EAB" refContainerID="C6572E3D-25E2-A4DD-4FAD-E90AEF2756E9"/>
+   <object objectType="FKIndexAssociation" objectID="0E5C5E3F-B5A1-8E14-4934-F3483F13C992" name="ordertbl_customer_FK" seqName="seg_0" containerID="61FAFBBA-CC29-2A7D-484A-133DFA654EAB" refContainerID="F582843B-6AC0-88EF-8127-2540104EBEAF"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

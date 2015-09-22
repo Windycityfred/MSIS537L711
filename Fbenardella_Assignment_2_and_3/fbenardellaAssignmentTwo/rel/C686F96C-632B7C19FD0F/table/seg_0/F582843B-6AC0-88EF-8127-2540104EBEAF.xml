@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F582843B-6AC0-88EF-8127-2540104EBEAF" name="customer">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:08:01 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="custno" id="EC2AB133-3A34-161A-7CE6-AFFDCAD6A3F8">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:12:17 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custfirstname" id="2C1F31B5-22DD-09A3-E463-FCB284267651">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:15:11 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custlastname" id="03AD347D-45BA-F080-5D7C-DBE4ABA1BF3D">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:15:11 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custcity" id="4180ED0A-F4D8-08A4-FDE4-4886B90DCF6B">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:15:11 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custstate" id="D4E55021-1A5E-BDBE-1C2B-AEEA751746BD">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:15:11 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custzip" id="7B43A9AF-2A16-B242-EFF6-CC13B94A121D">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:15:11 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custbal" id="E0AB53CD-01C1-2557-2879-71BC6C54EFC2">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:15:11 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT044</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25657057-17A6-C8F5-8F16-F552A730045C" name="customer_PK">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:12:17 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC2AB133-3A34-161A-7CE6-AFFDCAD6A3F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

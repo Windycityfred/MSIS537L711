@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6572E3D-25E2-A4DD-4FAD-E90AEF2756E9" name="employee">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:19:46 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="empno" id="B04A93E1-CF8C-D42F-24A1-24B8750BC05D">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:23:28 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empfirstname" id="44C1F5E4-C050-62B6-4A08-A6885C88D9A3">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:23:28 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emplastname" id="E02A66EB-5517-69C1-ABE5-F6404D5D58A4">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:23:28 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empphone" id="6ADA754C-9E8C-0923-0AE1-9552654F17BD">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:23:28 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empemail" id="7912F9E3-E786-7027-B90E-D9DA8B5F873A">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:23:28 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0D741A8-9A7C-96D4-F359-66CED80AC8AA" name="employee_PK">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:23:28 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B04A93E1-CF8C-D42F-24A1-24B8750BC05D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

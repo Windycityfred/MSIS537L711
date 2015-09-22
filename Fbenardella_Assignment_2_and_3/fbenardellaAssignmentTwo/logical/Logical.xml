@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2364196D-76A5-E83D-7DD0-CB3214AEBF5D" mainViewID="261DCF1E-A91D-4230-963F-9FCCC429EA95">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:04:00 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

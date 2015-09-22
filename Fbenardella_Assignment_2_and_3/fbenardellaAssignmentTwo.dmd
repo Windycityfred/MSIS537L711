@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fbenardellaAssignmentTwo" id="65CCE264-3FC9-9D7F-0254-41E9A70C6BBD" version="3.5">
+<createdBy>MainServer</createdBy>
+<createdTime>2015-09-19 19:04:00 UTC</createdTime>
+<ownerDesignName>fbenardellaAssignmentTwo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>65CCE264-3FC9-9D7F-0254-41E9A70C6BBD</designId>
+</OSDM_Design>

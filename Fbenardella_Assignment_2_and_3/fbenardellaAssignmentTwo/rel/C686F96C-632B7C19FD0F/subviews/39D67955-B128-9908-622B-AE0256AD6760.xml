@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="orders" id="39D67955-B128-9908-622B-AE0256AD6760">
+<createdBy>MainServer</createdBy>
+<modifiedBy>MainServer</modifiedBy>
+<createdTime>2015-09-19 19:05:12 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="61FAFBBA-CC29-2A7D-484A-133DFA654EAB" otype="Table" vid="B8389C12-E9C1-11B5-11AC-C406B2178F7B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="363" y="29" width="226" height="303"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C6572E3D-25E2-A4DD-4FAD-E90AEF2756E9" otype="Table" vid="5B7775C0-2C9A-B825-8E8B-3B403B0F7155">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="45" y="29" width="241" height="297"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F582843B-6AC0-88EF-8127-2540104EBEAF" otype="Table" vid="40F3CFD9-FACB-7EEF-586C-A3C9E82C1C73">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="653" y="32" width="257" height="296"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="0E5C5E3F-B5A1-8E14-4934-F3483F13C992" otype="FKIndexAssociation" vid_source="40F3CFD9-FACB-7EEF-586C-A3C9E82C1C73" vid_target="B8389C12-E9C1-11B5-11AC-C406B2178F7B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="653" y="170"/>
+<point x="589" y="170"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E7CBB41A-CA49-D95E-427C-1646E31B90B6" otype="FKIndexAssociation" vid_source="5B7775C0-2C9A-B825-8E8B-3B403B0F7155" vid_target="B8389C12-E9C1-11B5-11AC-C406B2178F7B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="286" y="177"/>
+<point x="363" y="177"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
